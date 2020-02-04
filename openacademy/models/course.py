@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
+from odoo import models
 
-# from odoo import models, fields, api
-
-
- class OpenAcademyCourse(models.Model):
+class OpenAcademyCourse(models.Model):
      _name = 'openacademy.course'
      _description = 'OpenAcademy Course'
